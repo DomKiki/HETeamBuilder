@@ -1,0 +1,1002 @@
+{
+
+	"races": [
+		{
+			"id": 1,
+			"name": "Beast",
+			"effects": [
+				{},
+				{ "effect" : "Beasts gain +4% attack damage for every hit or ability cast (max. 7 stacks)" },
+				{ "effect" : "Beasts gain +6% attack damage for every hit or ability cast (max. 7 stacks)" },
+				{ "effect" : "Upon reaching 7 stacks, Beasts additionally deal 4% of the target's maximum HP as Physical damage (capped at the Beast's Attack damage). The maximum bonus" },
+				{ "effect" : "Beasts gain +9% attack damage for every hit or ability cast (max. 7)" }
+			]
+		},
+		{
+			"id": 2,
+			"name": "Demon",
+			"effects": []
+		},
+		{
+			"id": 3,
+			"name": "Elf",
+			"effects": []
+		},
+		{
+			"id": 4,
+			"name": "Goblin",
+			"effects": []
+		},
+		{
+			"id": 5,
+			"name": "God",
+			"effects": []
+		},
+		{
+			"id": 6,
+			"name": "Human",
+			"effects": []
+		},
+		{
+			"id": 7,
+			"name": "Naga",
+			"effects": []
+		},
+		{
+			"id": 8,
+			"name": "Undead",
+			"effects": []
+		}
+	],
+	
+	"classes": [
+		{
+			"id": 1,
+			"name": "Assassin",
+			"effects": []
+		},
+		{
+			"id": 2,
+			"name": "Knight",
+			"effects": []
+		},
+		{
+			"id": 3,
+			"name": "Mage",
+			"effects": []
+		},
+		{
+			"id": 4,
+			"name": "Mech",
+			"effects": []
+		},
+		{
+			"id": 5,
+			"name": "Ranger",
+			"effects": []
+		},
+		{
+			"id": 6,
+			"name": "Warrior",
+			"effects": []
+		},
+		{
+			"id": 7,
+			"name": "Warlock",
+			"effects": []
+		}
+	],
+	
+	"tiers": [
+		{
+			"id": 1,
+			"name": "Common",
+			"color": "#af9e99"
+		},
+		{
+			"id": 2,
+			"name": "Rare",
+			"color": "#1173ef"
+		},
+		{
+			"id": 3,
+			"name": "Epic",
+			"color": "#c228e8"
+		},
+		{
+			"id": 4,
+			"name": "Legendary",
+			"color": "#df8825"
+		},
+		{
+			"id": 5,
+			"name": "Immortal",
+			"color": "#f42522"
+		},
+		{
+			"id": 6,
+			"name": "Ultimate",
+			"color": "#ebe626"
+		}
+	],
+	
+	"champions": [
+		{
+			"id": 1,
+			"name": "Akyla",
+			"tier": 2,
+			"race" : 6,
+			"class" : 1,
+			"crop" : {
+				"x": 236,
+				"y": 113,
+				"s": 320
+			}
+		},
+		{
+			"id": 2,
+			"name": "Ares",
+			"tier": 3,
+			"race" : 5,
+			"class" : 6,
+			"crop" : {
+				"x": 259,
+				"y": 91,
+				"s": 320
+			}
+		},
+		{
+			"id": 3,
+			"name": "Atharina",
+			"tier": 3,
+			"race" : 5,
+			"class" : 1,
+			"crop" : {
+				"x": 207,
+				"y": 44,
+				"s": 413
+			}
+		},
+		{
+			"id": 4,
+			"name": "Balerion",
+			"tier": 2,
+			"race" : 1,
+			"class" : 5,
+			"crop" : {
+				"x": 0,
+				"y": 170,
+				"s": 545
+			}
+		},
+		{
+			"id": 5,
+			"name": "Ballista",
+			"tier": 1,
+			"race" : 4,
+			"class" : 4,
+			"crop" : {
+				"x": 55,
+				"y": 103,
+				"s": 538
+			}
+		},
+		{
+			"id": 6,
+			"name": "Bertha",
+			"tier": 2,
+			"race" : 1,
+			"class" : 3,
+			"crop" : {
+				"x": 227,
+				"y": 41,
+				"s": 509
+			}
+		},
+		{
+			"id": 7,
+			"name": "Bomber",
+			"tier": 2,
+			"race" : 4,
+			"class" : 4,
+			"crop" : {
+				"x": 150,
+				"y": 0,
+				"s": 591
+			}
+		},
+		{
+			"id": 8,
+			"name": "Caster Minion",
+			"tier": 1,
+			"race" : 6,
+			"class" : 7,
+			"crop" : {
+				"x": 154,
+				"y": 1,
+				"s": 502
+			}
+		},
+		{
+			"id": 9,
+			"name": "Catapult",
+			"tier": 1,
+			"race" : 1,
+			"class" : 4,
+			"crop" : {
+				"x": 89,
+				"y": 270,
+				"s": 433
+			}
+		},
+		{
+			"id": 10,
+			"name": "Chiron",
+			"tier": 2,
+			"race" : 1,
+			"class" : 6,
+			"crop" : {
+				"x": 134,
+				"y": 26,
+				"s": 504
+			}
+		},
+		{
+			"id": 11,
+			"name": "Chicken Bomber",
+			"tier": 1,
+			"race" : 3,
+			"class" : 1,
+			"crop" : {
+				"x": 91,
+				"y": 93,
+				"s": 551
+			}
+		},
+		{
+			"id": 12,
+			"name": "Clockcrank",
+			"tier": 2,
+			"race" : 2,
+			"class" : 4,
+			"crop" : {
+				"x": 106,
+				"y": 143,
+				"s": 516
+			}
+		},
+		{
+			"id": 13,
+			"name": "Diggy",
+			"tier": 2,
+			"race" : 4,
+			"class" : 2,
+			"crop" : {
+				"x": 191,
+				"y": 161,
+				"s": 490
+			}
+		},
+		{
+			"id": 14,
+			"name": "Dinger",
+			"tier": 2,
+			"race" : 4,
+			"class" : 4,
+			"crop" : {
+				"x": 88,
+				"y": 92,
+				"s": 505
+			}
+		},
+		{
+			"id": 15,
+			"name": "Durin",
+			"tier": 2,
+			"race" : 6,
+			"class" : 3,
+			"crop" : {
+				"x": 78,
+				"y": 36,
+				"s": 524
+			}
+		},
+		{
+			"id": 16,
+			"name": "Dusk",
+			"tier": 2,
+			"race" : 8,
+			"class" : 5,
+			"crop" : {
+				"x": 186,
+				"y": 70,
+				"s": 523
+			}
+		},
+		{
+			"id": 17,
+			"name": "Elisa",
+			"tier": 2,
+			"race" : 8,
+			"class" : 1,
+			"crop" : {
+				"x": 185,
+				"y": 0,
+				"s": 457
+			}
+		},
+		{
+			"id": 18,
+			"name": "Earth Dragon",
+			"tier": 1,
+			"race" : 4,
+			"class" : 6,
+			"unused": true
+		},
+		{
+			"id": 19,
+			"name": "Fairy Dragon",
+			"tier": 1,
+			"race" : 3,
+			"class" : 3,
+			"crop" : {
+				"x": 74,
+				"y": 174,
+				"s": 578
+			}
+		},
+		{
+			"id": 20,
+			"name": "Faegon",
+			"tier": 2,
+			"race" : 3,
+			"class" : 3,
+			"crop" : {
+				"x": 0,
+				"y": 77,
+				"s": 478
+			}
+		},
+		{
+			"id": 21,
+			"name": "Farah",
+			"tier": 3,
+			"race" : 3,
+			"class" : 4,
+			"crop" : {
+				"x": 137,
+				"y": 0,
+				"s": 350
+			}
+		},
+		{
+			"id": 22,
+			"name": "Fellow",
+			"tier": 3,
+			"race" : 2,
+			"class" : 7,
+			"crop" : {
+				"x": 161,
+				"y": 25,
+				"s": 462
+			}
+		},
+		{
+			"id": 23,
+			"name": "Finn",
+			"tier": 2,
+			"race" : 7,
+			"class" : 1,
+			"crop" : {
+				"x": 360,
+				"y": 161,
+				"s": 435
+			}
+		},
+		{
+			"id": 24,
+			"name": "Friendly Golem",
+			"tier": 1,
+			"race" : 8,
+			"class" : 7,
+			"crop" : {
+				"x": 111,
+				"y": 79,
+				"s": 514
+			}
+		},
+		{
+			"id": 25,
+			"name": "Golemus",
+			"tier": 2,
+			"race" : 3,
+			"class" : 6,
+			"crop" : {
+				"x": 89,
+				"y": 200,
+				"s": 517
+			}
+		},
+		{
+			"id": 26,
+			"name": "Gumiho",
+			"tier": 2,
+			"race" : 3,
+			"class" : 7,
+			"crop" : {
+				"x": 163,
+				"y": 0,
+				"s": 456
+			}
+		},
+		{
+			"id": 27,
+			"name": "Hades",
+			"tier": 3,
+			"race" : 5,
+			"class" : 7,
+			"crop" : {
+				"x": 134,
+				"y": 0,
+				"s": 472
+			}
+		},
+		{
+			"id": 28,
+			"name": "Haze",
+			"tier": 3,
+			"race" : 8,
+			"class" : 3,
+			"crop" : {
+				"x": 132,
+				"y": 173,
+				"s": 393
+			}
+		},
+		{
+			"id": 29,
+			"name": "Jeatah",
+			"tier": 2,
+			"race" : 6,
+			"class" : 5,
+			"crop" : {
+				"x": 231,
+				"y": 131,
+				"s": 368
+			}
+		},
+		{
+			"id": 30,
+			"name": "Jubaba",
+			"tier": 2,
+			"race" : 8,
+			"class" : 7,
+			"crop" : {
+				"x": 292,
+				"y": 0,
+				"s": 475
+			}
+		},
+		{
+			"id": 31,
+			"name": "Kaiser",
+			"tier": 2,
+			"race" : 8,
+			"class" : 2,
+			"crop" : {
+				"x": 318,
+				"y": 71,
+				"s": 390
+			}
+		},
+		{
+			"id": 32,
+			"name": "Keepy",
+			"tier": 3,
+			"race" : 8,
+			"class" : 1,
+			"crop" : {
+				"x": 250,
+				"y": 76,
+				"s": 535
+			}
+		},
+		{
+			"id": 33,
+			"name": "Kha",
+			"tier": 2,
+			"race" : 6,
+			"class" : 6,
+			"crop" : {
+				"x": 339,
+				"y": 142,
+				"s": 459
+			}
+		},
+		{
+			"id": 34,
+			"name": "Knight Minion",
+			"tier": 1,
+			"race" : 8,
+			"class" : 6,
+			"crop" : {
+				"x": 136,
+				"y": 85,
+				"s": 556
+			}
+		},
+		{
+			"id": 35,
+			"name": "Leoric",
+			"tier": 2,
+			"race" : 8,
+			"class" : 2,
+			"crop" : {
+				"x": 66,
+				"y": 0,
+				"s": 507
+			}
+		},
+		{
+			"id": 36,
+			"name": "Liona",
+			"tier": 3,
+			"race" : 6,
+			"class" : 2,
+			"crop" : {
+				"x": 103,
+				"y": 8,
+				"s": 614
+			}
+		},
+		{
+			"id": 37,
+			"name": "Lionidas",
+			"tier": 2,
+			"race" : 1,
+			"class" : 1,
+			"crop" : {
+				"x": 48,
+				"y": 11,
+				"s": 607
+			}
+		},
+		{
+			"id": 38,
+			"name": "Lorki",
+			"tier": 3,
+			"race" : 4,
+			"class" : 4,
+			"crop" : {
+				"x": 85,
+				"y": 109,
+				"s": 492
+			}
+		},
+		{
+			"id": 39,
+			"name": "Lynn",
+			"tier": 2,
+			"race" : 3,
+			"class" : 2,
+			"crop" : {
+				"x": 102,
+				"y": 7,
+				"s": 503
+			}
+		},
+		{
+			"id": 40,
+			"name": "Medusa",
+			"tier": 3,
+			"race" : 7,
+			"class" : 5,
+			"crop" : {
+				"x": 122,
+				"y": 0,
+				"s": 530
+			}
+		},
+		{
+			"id": 41,
+			"name": "Midu",
+			"tier": 2,
+			"race" : 3,
+			"class" : 3,
+			"crop" : {
+				"x": 119,
+				"y": 0,
+				"s": 567
+			}
+		},
+		{
+			"id": 42,
+			"name": "Mrs Hazard",
+			"tier": 3,
+			"race" : 3,
+			"class" : 5,
+			"crop" : {
+				"x": 256,
+				"y": 90,
+				"s": 370
+			}
+		},
+		{
+			"id": 43,
+			"name": "Mutant Rabbit",
+			"tier": 1,
+			"race" : 1,
+			"class" : 6,
+			"crop" : {
+				"x": 200,
+				"y": 80,
+				"s": 500
+			}
+		},
+		{
+			"id": 44,
+			"name": "Nama",
+			"tier": 3,
+			"race" : 7,
+			"class" : 3,
+			"crop" : {
+				"x": 0,
+				"y": 28,
+				"s": 555
+			}
+		},
+		{
+			"id": 45,
+			"name": "Nekrosius",
+			"tier": 2,
+			"race" : 2,
+			"class" : 7,
+			"crop" : {
+				"x": 0,
+				"y": 0,
+				"s": 669
+			}
+		},
+		{
+			"id": 46,
+			"name": "Neptune",
+			"tier": 2,
+			"race" : 7,
+			"class" : 6,
+			"crop" : {
+				"x": 167,
+				"y": 89,
+				"s": 629
+			}
+		},
+		{
+			"id": 47,
+			"name": "Odin",
+			"tier": 2,
+			"race" : 5,
+			"class" : 3,
+			"crop" : {
+				"x": 123,
+				"y": 14,
+				"s": 663
+			}
+		},
+		{
+			"id": 48,
+			"name": "Pharmacist",
+			"tier": 3,
+			"race" : 4,
+			"class" : 7,
+			"crop" : {
+				"x": 82,
+				"y": 0,
+				"s": 642
+			}
+		},
+		{
+			"id": 49,
+			"name": "Pigrider",
+			"tier": 2,
+			"race" : 4,
+			"class" : 2,
+			"crop" : {
+				"x": 44,
+				"y": 42,
+				"s": 649
+			}
+		},
+		{
+			"id": 50,
+			"name": "QQtrox",
+			"tier": 3,
+			"race" : 2,
+			"class" : 6,
+			"crop" : {
+				"x": 171,
+				"y": 151,
+				"s": 478
+			}
+		},
+		{
+			"id": 51,
+			"name": "Rafiki",
+			"tier": 2,
+			"race" : 1,
+			"class" : 7,
+			"crop" : {
+				"x": 69,
+				"y": 3,
+				"s": 649
+			}
+		},
+		{
+			"id": 52,
+			"name": "Ragnuk",
+			"tier": 2,
+			"race" : 4,
+			"class" : 3,
+			"crop" : {
+				"x": 159,
+				"y": 170,
+				"s": 450
+			}
+		},
+		{
+			"id": 53,
+			"name": "Ruvina",
+			"tier": 2,
+			"race" : 3,
+			"class" : 3,
+			"crop" : {
+				"x": 145,
+				"y": 151,
+				"s": 610
+			}
+		},
+		{
+			"id": 54,
+			"name": "Seth",
+			"tier": 2,
+			"race" : 8,
+			"class" : 6,
+			"crop" : {
+				"x": 12,
+				"y": 16,
+				"s": 606
+			}
+		},
+		{
+			"id": 55,
+			"name": "Sonata",
+			"tier": 3,
+			"race" : 6,
+			"class" : 7,
+			"crop" : {
+				"x": 152,
+				"y": 155,
+				"s": 400
+			}
+		},
+		{
+			"id": 56,
+			"name": "Spectune",
+			"tier": 2,
+			"race" : 2,
+			"class" : 1,
+			"crop" : {
+				"x": 177,
+				"y": 56,
+				"s": 565
+			}
+		},
+		{
+			"id": 57,
+			"name": "Succubus",
+			"tier": 2,
+			"race" : 2,
+			"class" : 3,
+			"crop" : {
+				"x": 84,
+				"y": 87,
+				"s": 484
+			}
+		},
+		{
+			"id": 58,
+			"name": "Super Mech",
+			"tier": 3,
+			"race" : -1,
+			"class" : 4,
+			"unused": true
+		},
+		{
+			"id": 59,
+			"name": "Swift",
+			"tier": 3,
+			"race" : 6,
+			"class" : 6,
+			"crop" : {
+				"x": 128,
+				"y": 87,
+				"s": 544
+			}
+		},
+		{
+			"id": 60,
+			"name": "Syllabear",
+			"tier": 3,
+			"race" : 1,
+			"class" : 2,
+			"crop" : {
+				"x": 116,
+				"y": 39,
+				"s": 655
+			}
+		},
+		{
+			"id": 61,
+			"name": "Tidus",
+			"tier": 2,
+			"race" : 7,
+			"class" : 2,
+			"crop" : {
+				"x": 60,
+				"y": 8,
+				"s": 684
+			}
+		},
+		{
+			"id": 62,
+			"name": "Timble",
+			"tier": 2,
+			"race" : 4,
+			"class" : 4,
+			"crop" : {
+				"x": 100,
+				"y": 150,
+				"s": 518
+			}
+		},
+		{
+			"id": 63,
+			"name": "Tolan",
+			"tier": 2,
+			"race" : 3,
+			"class" : 1,
+			"crop" : {
+				"x": 303,
+				"y": 82,
+				"s": 320
+			}
+		},
+		{
+			"id": 64,
+			"name": "Tomee",
+			"tier": 2,
+			"race" : 4,
+			"class" : 5,
+			"crop" : {
+				"x": 99,
+				"y": 47,
+				"s": 696
+			}
+		},
+		{
+			"id": 65,
+			"name": "Tranqui",
+			"tier": 2,
+			"race" : 5,
+			"class" : 7,
+			"crop" : {
+				"x": 206,
+				"y": 52,
+				"s": 420
+			}
+		},
+		{
+			"id": 66,
+			"name": "Tusk",
+			"tier": 2,
+			"race" : 1,
+			"class" : 5,
+			"crop" : {
+				"x": 20,
+				"y": 13,
+				"s": 694
+			}
+		},
+		{
+			"id": 67,
+			"name": "Victor",
+			"tier": 2,
+			"race" : 8,
+			"class" : 4,
+			"crop" : {
+				"x": 171,
+				"y": 70,
+				"s": 450
+			}
+		},
+		{
+			"id": 68,
+			"name": "Trainee Sniper",
+			"tier": 1,
+			"race" : 4,
+			"class" : 5,
+			"crop" : {
+				"x": 41,
+				"y": 49,
+				"s": 704
+			}
+		},
+		{
+			"id": 69,
+			"name": "Vy",
+			"tier": 2,
+			"race" : 6,
+			"class" : 4,
+			"crop" : {
+				"x": 258,
+				"y": 0,
+				"s": 420
+			}
+		},
+		{
+			"id": 70,
+			"name": "Warrior Minion",
+			"tier": 1,
+			"race" : 6,
+			"class" : 2,
+			"crop" : {
+				"x": 80,
+				"y": 68,
+				"s": 641
+			}
+		},
+		{
+			"id": 71,
+			"name": "Wolf",
+			"tier": 1,
+			"race" : 1,
+			"class" : 1,
+			"crop" : {
+				"x": 64,
+				"y": 235,
+				"s": 499
+			}
+		},
+		{
+			"id": 72,
+			"name": "Wukong",
+			"tier": 2,
+			"race" : 5,
+			"class" : 6,
+			"crop" : {
+				"x": 151,
+				"y": 0,
+				"s": 628
+			}
+		},
+		{
+			"id": 73,
+			"name": "Wyvern Dragon",
+			"tier": 1,
+			"race" : 2,
+			"class" : 3,
+			"unused": true
+		},
+		{
+			"id": 74,
+			"name": "Zak",
+			"tier": 2,
+			"race" : 1,
+			"class" : 4,
+			"crop" : {
+				"x": 54,
+				"y": 31,
+				"s": 661
+			}
+		}
+	]
+	
+}
